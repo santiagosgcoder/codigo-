@@ -1,0 +1,237 @@
+
+/**********TABLEPOKEMONS**********/
+
+
+
+*{
+    color: black;
+}
+
+
+h1{
+    color: orangered;
+    font-style: italic;
+    width: 913px;
+}
+
+.body {
+
+    align-self: center;
+    margin-left: 250px;
+    text-decoration: none;
+ 
+}
+
+.tablepok{
+
+align-content: center;
+width: 10px;
+padding: 10px;
+
+}
+
+table tr:nth-child(odd){
+   color: black;
+   background: linear-gradient(to top,orange,rgb(255, 128, 0) );
+   
+}
+
+table {
+    font-size: 29px;
+    padding: -10px;
+    text-align: center;
+    border: 0px;
+  
+   
+    
+}
+tbody tr, td{
+    padding: 30px;
+    border-radius: 10px;
+    border-style: double;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+header a{
+    text-decoration: none;
+    background: orange;
+    width: 50px;
+    height: 20px;
+    border: 1px groove orange;
+    border-radius: 5px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+td a{
+    text-decoration: none;
+}
+
+
+@keyframes bounce { 30% {
+
+    -webkit-transform: translatY(-14px);
+    transform: translateY(-10px); } }
+
+
+tbody, td:hover{
+
+    animation: bounce 1s;
+
+
+}
+
+.img{
+
+    width: 200px;
+    border: 10px;
+    border: 10px;
+    margin-left: 600px;
+    margin-top: 46px;
+    border: 7px outset darksalmon;
+    border-radius: 5px;
+    background-color: darksalmon;
+  
+}
+
+.devuel{
+    text-align: start;
+    padding: 5px;
+    background: orange;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-content: center;
+    font-style: oblique;
+    margin-left: 100px;
+    cursor: pointer;
+    color: chartreuse;
+    text-decoration: none;
+    
+}
+
+@keyframes bounce { 30% {
+
+    -webkit-transform: translatY(-14px);
+    transform: translateY(-10px); } }
+
+img:hover{
+
+    animation: bounce 2s;
+}
+
+
+
+li ul li{
+    list-style-type:cjk-earthly-branch;
+    list-style-position: inside;
+}
+
+div #menu {
+    margin-left: 600px;
+}
+
+
+/* a{
+    transition: background-color .6s;
+   
+} */
+
+/* a:hover{
+    background: orange;    
+}
+ */
+
+
+
+
+/**************************USER-REGISTER***************************/
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+#container{
+    background: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+
+}
+.h33{
+    background: orange;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 45px;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10%;
+    border: 1px ridge orange;
+    border-radius: 5px;
+    
+   
+   
+}
+
+#container form{
+    background: linear-gradient(to top, rgb(249, 80, 80), yellow );
+    width: 450px;
+    height: 490px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 7px;
+    border: 2px solid rgb(183, 183, 31);
+    display: block;
+ 
+    
+   
+   
+    
+}
+
+ label{
+    display: block;
+    padding: 4px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    float: inline-end;
+    
+}
+
+
+button{
+    display: block;
+    background-color: red;
+    font-size: 16px;
+    padding: 10px;
+    margin-top:6%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 150px;
+    
+}
+
+input{
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 150px;   
+
+}
+

@@ -1,0 +1,95 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#contain{
+    background: white;
+    height:100vh; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h3{
+    font-size: 26px;
+    font-style: normal;
+    color: rgb(42, 31, 31);
+    text-align: center;
+    background: orange;
+    border-radius: 7px;
+    margin-top: 1px;
+    border: 1px solid red;
+    
+}
+
+#contain form{
+    background: linear-gradient(to top, rgb(249, 80, 80), yellow);
+    width: 350px;
+    color: black;
+    padding: 20px;
+    padding-bottom: -3px;
+    padding-top: 1px 1px 1px 1px;
+    border-radius: 9px;
+    border: 2px solid rgb(179, 165, 16);
+
+}
+
+@keyframes bounce { 30% {
+
+    -webkit-transform: translatY(-14px);
+    transform: translateY(-10px); } }
+img:hover{
+
+    animation: bounce 2s;
+}
+
+
+ a{
+
+    text-decoration: none;
+    color: black;
+}
+
+#contain form input{
+    width: 100%;
+    padding: 4px;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: unset;
+    text-align: center;
+}
+
+
+#contain form img {
+
+    margin: 15px auto;
+    text-align: center;
+    width: 110px;
+    height: 100px;
+    display: block;
+    border: 1px solid yellow;
+    border-radius: 50%;
+
+}
+
+#contain form input[type="submit"]{
+    background: red;
+    width: 100px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: outset;
+}
+
+
+.registro{
+
+    display: flex;
+    justify-content: center;
+}
