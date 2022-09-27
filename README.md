@@ -1,3 +1,3 @@
 # codigo-
 
-this is a repository of pokemon API
+this is a pokemon API repository 
